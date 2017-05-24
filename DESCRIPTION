@@ -9,5 +9,9 @@ Description: Collection of datasets as prepared by Profs. A.P. Gore, S.A. Paranj
 License: GPL-2
 LazyData: true
 RoxygenNote: 6.0.1
+Imports:
+    stats
 Suggests:
-    broom
+    broom,
+    ggplot2
+    
