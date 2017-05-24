@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# gpk
+
+`gpk` contains the datasets from the [100 Datasets in Statistical Education](http://ces.iisc.ernet.in/hpg/nvjoshi/statspunedatabook/databook.html) project. These can be used for teaching statistics and R programming.
+
+## Installation
+
+You can install the stable version of gpk from CRAN with:
+
+```{r cran-installation, eval = FALSE}
+install.packages("gpk")
+```
+
+You can install the development version of gpk from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("richierocks/gpk")
+```
+
+## Development work
+
+The current development work aims to improve the documentation in the package,
+making it easier to create lessons related to the data.
+
+## Datasets
+
+These datasets are available.
+
+```{r example, echo = FALSE, results = "asis"}
+knitr::kable(data(package = "gpk")$results[, c("Item", "Title")])
+```
