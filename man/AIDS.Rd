@@ -4,7 +4,7 @@
 \name{AIDS}
 \alias{AIDS}
 \alias{aids}
-\title{AIDS}
+\title{Assessment of the efficacy of an AIDS awareness booklet}
 \format{A data frame with 72 observations on the following 5 variables.
 \describe{
   \item{\code{SR.NO}}{Integer. Student registration number.}
@@ -22,14 +22,12 @@ The \code{Subject} field has values as follows:
   \item{\code{Zoology }}{Zoology (Special)} 
 }}
 \description{
-Assessment of the efficacy of an AIDS awareness booklet.
-}
-\details{
 University students were given a test on AIDS knowledge before and after 
 reading a booklet on AIDS awareness. The aim of the experiment was to 
 determine whether or not reading the booklet successfully improves awareness
 of the disease.
-
+}
+\details{
 In disease management the proverb 'prevention is better than cure' 
   is very relevant. Awareness is the first step in prevention. Hence any 
   materials prepared to enhance awareness constitute a potent weapon in the 

@@ -1,6 +1,4 @@
-#' AIDS 
-#' 
-#' Assessment of the efficacy of an AIDS awareness booklet.
+#' Assessment of the efficacy of an AIDS awareness booklet
 #' 
 #' University students were given a test on AIDS knowledge before and after 
 #' reading a booklet on AIDS awareness. The aim of the experiment was to 
