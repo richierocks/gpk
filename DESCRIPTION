@@ -1,7 +1,7 @@
 Package: gpk
 Type: Package
 Title: 100 Data Sets for Statistics Education
-Version: 1.0
+Version: 1.0.1
 Date: 2013-07-12
 Author: Prabhanjan Tattar
 Maintainer: Prabhanjan Tattar <prabhanjannt@gmail.com>
@@ -10,4 +10,4 @@ License: GPL-2
 Packaged: 2013-07-14 02:59:31 UTC; prabhanjan
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2013-07-14 08:39:22
+LazyData: true
